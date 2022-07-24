@@ -8,3 +8,8 @@ Sync files on accross all devices. Chose what directories to sync. Interaction w
 
 * [ ] [Wails desktop app](https://github.com/wailsapp/wails)
 * [ ] [Gin website app](https://github.com/gin-gonic/gin)
+
+## Setup
+
+1. Install docker
+1. `docker compose up` 

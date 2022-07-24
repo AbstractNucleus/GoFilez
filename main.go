@@ -16,6 +16,7 @@ func multiRender() multitemplate.Render {
 func main() {
 	router := gin.Default()
 	router.HTMLRender = multiRender()
+	//	router.LoadHTMLGlob("templates/*")
 
 	router.GET("/", func(c *gin.Context) {
 		c.HTML(200, "index", gin.H{
