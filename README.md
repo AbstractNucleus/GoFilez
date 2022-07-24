@@ -8,3 +8,18 @@ Sync files on accross all devices. Chose what directories to sync. Interaction w
 
 * [ ] [Wails desktop app](https://github.com/wailsapp/wails)
 * [ ] [Gin website app](https://github.com/gin-gonic/gin)
+
+## Setup
+
+Prerequisite docker
+
+### Build image
+
+` docker build --tag  gofilez:latest .`
+
+### Start conatiner
+
+ `docker compose up` 
+
+### Enter command line of running container
+`docker-compose gofilez sh`
